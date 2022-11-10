@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.js"
+    integrity="sha512-MnKz2SbnWiXJ/e0lSfSzjaz9JjJXQNb2iykcZkEY2WOzgJIWVqJBFIIPidlCjak0iTH2bt2u1fHQ4pvKvBYy6Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    refer
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    defer
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+    defer
+  ></script>
+  <script src="app.js" defer></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <header class="w-100">
+       <div class="container-fluid d-flex justify-content-between">
+        <div>
+            <h4 
+            style="color: yellow"
+            class="mt-2 ps-2"
+            >IDFX</h4> 
+        </div>
+        <div class="d-flex navs d-none">
+            <ul class="d-flex">
+                <li class="me-2 py-2 ">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="mx-2 py-2">
+                    <a href="second.html">Second</a>
+                </li>
+                <li class="mx-2 py-2">
+                    <a href="third.html">Third</a>
+                </li>
+                <li class="mx-2 py-2">
+                    <a href="fourth.html">Fourth</a>
+                </li>
+                  <li class="mx-2 py-2">
+                    <a href="fifth.html">Fifth</a>
+                </li>
+                </ul>
+        </div>
+        <div>
+
+        </div>
+         </div>
+            </ul>
+        </div>
+       </div>
+    </header>
+    <div class="py-3">
+
+    </div>
+    <div class="container-fluid">
+      <div class="container abc ms-5" style="min-height: 100vh">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 27.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#FFFFFF;}
+            .st1{font-family:'Gotham-UltraItalic';}
+            .st2{font-size:83.6635px;}
+            .st3{fill:#8BC53F;}
+        </style>
+        <text transform="matrix(1 0 0 1 244.4492 483.0439)" class="st0 st1 st2 gx" >It&apos;s not another brick in the wall.</text>
+        <text transform="matrix(1 0 0 1 244.0132 551.8799)" class="st0 st1 st2 gx">It&apos;s another piece of art on the wall.</text>
+        <text transform="matrix(1 0 0 1 243.7188 689.5518)" class="st3 st1 st2 gx">IDFX- Inspiring New Perspectives</text>
+        </svg>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".whatwedo").hover(function () {
+          $(".whoweare").css("opacity", "0.1");
+          $(".contact").css("opacity", "0.1");
+          $(".ourwork").css("opacity", "0.1");
+          $(".about").css("opacity", "0.1");
+        });
+        $(".whatwedo").mouseleave(function () {
+          $(".whoweare").css("opacity", "1");
+          $(".contact").css("opacity", "1");
+          $(".ourwork").css("opacity", "1");
+          $(".about").css("opacity", "1");
+        });
+
+        $(".whoweare").hover(function () {
+          $(".whatwedo").css("opacity", "0.1");
+          $(".contact").css("opacity", "0.1");
+          $(".ourwork").css("opacity", "0.1");
+          $(".about").css("opacity", "0.1");
+        });
+
+        $(".whoweare").mouseleave(function () {
+          $(".whatwedo").css("opacity", "1");
+          $(".contact").css("opacity", "1");
+          $(".ourwork").css("opacity", "1");
+          $(".about").css("opacity", "1");
+        });
+
+        $(".contact").hover(function () {
+          $(".whatwedo").css("opacity", "0.1");
+          $(".whoweare").css("opacity", "0.1");
+          $(".ourwork").css("opacity", "0.1");
+          $(".about").css("opacity", "0.1");
+        });
+
+        $(".contact").mouseleave(function () {
+          $(".whatwedo").css("opacity", "1");
+          $(".whoweare").css("opacity", "1");
+          $(".ourwork").css("opacity", "1");
+          $(".about").css("opacity", "1");
+        });
+
+        $(".ourwork").hover(function () {
+          $(".whatwedo").css("opacity", "0.1");
+          $(".whoweare").css("opacity", "0.1");
+          $(".contact").css("opacity", "0.1");
+          $(".about").css("opacity", "0.1");
+        });
+
+        $(".ourwork").mouseleave(function () {
+          $(".whatwedo").css("opacity", "1");
+          $(".whoweare").css("opacity", "1");
+          $(".contact").css("opacity", "1");
+          $(".about").css("opacity", "1");
+        });
+
+        $(".about").hover(function () {
+          $(".whatwedo").css("opacity", "0.1");
+          $(".whoweare").css("opacity", "0.1");
+          $(".contact").css("opacity", "0.1");
+          $(".ourwork").css("opacity", "0.1");
+        });
+
+        $(".about").mouseleave(function () {
+          $(".whatwedo").css("opacity", "1");
+          $(".whoweare").css("opacity", "1");
+          $(".contact").css("opacity", "1");
+          $(".ourwork").css("opacity", "1");
+        });
+
+        $("header").hover(function () {
+            $(".navs").removeClass("d-none");
+            });
+
+        $("header").mouseleave(function () {
+            $(".navs").addClass("d-none");
+            });
+
+      });
+    </script>
+  </body>
+</html>
